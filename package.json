@@ -28,8 +28,7 @@
     "lint": "npm run editorconfig && npm run stylelint",
     "build": "gulp build",
     "start": "gulp",
-    "predeploy": "npm run build",
-    "deploy": "gulp build && gh-pages -d build"
+
   },
   "browserslist": [
     "last 2 versions",
