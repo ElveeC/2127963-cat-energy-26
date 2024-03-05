@@ -1,9 +1,0 @@
-@use "../global/viewports.scss" as *;
-
-.program-types {
-  @media (min-width: $desktop-width) {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    column-gap: 80px;
-  }
-}
